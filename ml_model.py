@@ -1,8 +1,8 @@
 
 from sklearn.tree import DecisionTreeClassifier
 
-X = [[1], [2], [3], [4], [5], [6]]
-y = [0, 1, 0, 1, 0, 1]
+X = [[1], [2], [3], [4], [5], [6], [55], [22]]
+y = [0, 1, 0, 1, 0, 1, 0, 1]
 
 model = DecisionTreeClassifier()
 model.fit(X, y)
